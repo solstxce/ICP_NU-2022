@@ -30,6 +30,7 @@ elif choice==5:
   print("Thank you for using the string converter!")
   os.system('exit')
 else:
+      #This part is not yet done!
       print("Invalid choice!\nPlease choose from the above options only!")
-      os.system('clear')
+      os.system('cls')
       info()
