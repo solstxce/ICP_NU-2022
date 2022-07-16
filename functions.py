@@ -35,3 +35,17 @@ def bin_to_oct(number):
     num=int(int_str,2)
     convOctBin=oct(num)
     return convOctBin
+def oct_to_int(number):
+    int_str=str(number)
+    convIntOct=int(int_str,8)
+    return convIntOct
+def oct_to_bin(number):
+    int_str=str(number)
+    num=int(int_str,8)
+    convBinOct=format(num,"b")
+    return convBinOct
+def oct_to_hex(number):
+    int_str=str(number)
+    num=int(int_str,8)
+    convHexOct=hex(num)
+    return convHexOct
