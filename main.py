@@ -2,7 +2,7 @@ from functions import *
 import os
 import time
 def logo():
-  os.system("clear")
+  os.system("cls")
   print("""
   ████████ ██                      ██        
  ██░░░░░░ ░░              ██████  ░██        
@@ -35,7 +35,7 @@ def info():
 def repeatConv(Ans):
   strAns=str(Ans)
   if strAns=='y' or strAns=='yes':
-   os.system('clear')
+   os.system('cls')
    choiceVar=info()
    main(choiceVar)
   elif strAns=='n' or strAns=='no' or strAns=='q':
@@ -73,13 +73,13 @@ def main(choice):
    os.system('exit')
  elif choice=='':
    print("Please select any of the options!")
-   os.system('clear')
+   os.system('cls')
    choiceVar=info()
    main(choiceVar)
  else:
   print("Invalid choice!\nPlease choose from the given options only!") 
   time.sleep(3)
-  os.system('clear')
+  os.system('cls')
   choiceVar=info()
   main(choiceVar)
 logo()
