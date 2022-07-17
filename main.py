@@ -15,7 +15,7 @@ def info():
 def repeatConv(Ans):
   strAns=str(Ans)
   if strAns=='y' or strAns=='yes':
-   os.system('clear')
+   os.system('cls')
    logo()
    choiceVar=info()
    main(choiceVar)
@@ -60,7 +60,7 @@ def main(choice):
  else:
   print("Invalid choice!\nPlease choose from the given options only!") 
   time.sleep(3)
-  os.system('clear')
+  os.system('cls')
   choiceVar=info()
   main(choiceVar)
 try:
